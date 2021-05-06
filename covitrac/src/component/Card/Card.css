@@ -1,0 +1,39 @@
+:root {
+  --card-color: #001233;
+}
+.card {
+  padding: 1em 2em;
+  border-radius: 10px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  background-color: var(--card-color);
+  color: black;
+}
+.active {
+  color: #007bfe;
+  border: 1.5px solid #007bfe;
+  /* background-color: #007bfe4b; */
+}
+.recovered {
+  color: #28a645;
+  border: 1.5px solid #28a645;
+  /* background-color: #28a6454b; */
+}
+.death {
+  color: #fe073a;
+  border: 1.5px solid #fe073a;
+  /* background-color: #fe073a4b; */
+}
+.card__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.card__cases {
+  margin: 0.5em 0;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.card__increase {
+  font-size: 0.9em;
+  font-weight: 400;
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.App__card {
+  margin: 2em auto;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
